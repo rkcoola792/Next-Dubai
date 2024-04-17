@@ -90,7 +90,7 @@ const Section4 = () => {
               <div className="contacts md:flex-row flex flex-col gap-4  md:gap-32 sm:ml-10 ">
                 <div className="phone flex flex-col 2xl:text-2xl gap-2">
                   <h3 className="text-mainBlue font-semibold "> Phone:</h3>
-                  <p className="text-gray-600 text-base"> 971 543119922</p>
+                  <p className="text-gray-600 text-base 2xl:text-lg"> 971 543119922</p>
                 </div>
                 <div className="email flex flex-col  2xl:text-2xl gap-2 ">
                   <h3 className="text-mainBlue font-semibold"> Email:</h3>

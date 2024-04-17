@@ -119,7 +119,7 @@ const Business = () => {
     <p className="pb-4 text-gray-600 px-2">Business</p>
       <div className="space grid grid-cols-1 gap-4 ">
         
-        <Link href="/business/unifiedCapitalAndInvestmentsIndia" className="block text-sm hover:underline">
+        <Link href="/business/unifiedCapitalAndInvestmentIndia" className="block text-sm hover:underline">
           <p><span className="mr-2"></span>Unified Capital and Investments India</p>
         </Link>
         <Link href="/business/mediaDynoxPrivateLimitedIndia" className="block text-sm hover:underline">
@@ -137,7 +137,7 @@ const Business = () => {
         <Link href="/business/catsClubAndBarDubai" className="block text-sm hover:underline">
           <p><span className="mr-2"></span>Cats Club and Bar Dubai</p>
         </Link>
-        <Link href="/business/CatsClubsAndBarPhilippines" className="block text-sm hover:underline">
+        <Link href="/business/catsClubsAndBarPhilippines" className="block text-sm hover:underline">
           <p><span className="mr-2"></span>Cats Club and Bar Philippines</p>
         </Link>
         <Link href="/business/unifiedChelseaPlazaHotel" className="block text-sm hover:underline">
