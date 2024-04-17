@@ -7,7 +7,7 @@ import Section2 from '../Section2';
 
 const page = () => {
   return (
-    <div className="BusinessSetup px-4 sm:px-12 2xl:px-0   max-w-[1440px] mx-auto">
+    <div className="BusinessSetup px-4 sm:px-12 2xl:px-0 max-w-[1440px] mx-auto">
       
       <Hero
         heading1="Home"
