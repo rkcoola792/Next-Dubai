@@ -1,5 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/header/Header";
+import MobileMenuNew from "./mobileMenu/mobileMenu";
+import Footer from "./footer/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +14,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+    
+      <body className={inter.className}>
+      <div className="">
+      <Header/>
+      <div className="lg:hidden fixed w-full -top-2 z-[100] ">
+        {/* <MobileMenuNew/> */}
+        </div>
+      {children}
+      <Footer></Footer>
+      </div>
+      </body>
     </html>
   );
 }

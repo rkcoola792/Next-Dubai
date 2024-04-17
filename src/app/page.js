@@ -1,8 +1,9 @@
+import Homepage from "./homepage/page";
 
 export default function Home() {
   return (
- <div className="home text-3xl">
-Hey
+ <div className="home ">
+<Homepage></Homepage>
  </div> 
   );
 }
