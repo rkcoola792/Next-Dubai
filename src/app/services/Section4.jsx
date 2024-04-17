@@ -5,6 +5,8 @@ import React from 'react'
 import Section5 from '@/components/homepage/Section5';
 import Heading from '@/components/heading/Heading';
 import { StarIcon } from '@/components/starIcon/StarIcon';
+import Section5Component from '@/components/homepage/Section5Component';
+
 
 const Section4 = () => {
   return (

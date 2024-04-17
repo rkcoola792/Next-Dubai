@@ -81,31 +81,31 @@ const PricingContent = () => {
       <p className="pb-4 text-gray-600 ">Services</p>
       <div className="space grid grid-cols-1 gap-4 ">
         
-        <Link href="/service/real-estate" className="block text-sm hover:underline">
+        <Link href="/services/realEstate" className="block text-sm hover:underline">
       
           <div className="flex gap-2"><span className="">
           <img src='/Real Estate.webp' className="w-6"></img>
           </span>Real Estate</div>
         </Link>
-        <Link href="/service/renewable-energy" className="block text-sm hover:underline">
+        <Link href="/services/renewableEnergy" className="block text-sm hover:underline">
           <div className="mr-2 flex gap-2"><span ><img src="/Renewable Energy.webp" className="w-6"></img></span>Renewable Energy </div>
         </Link>
-        <Link href="/service/business-setup" className="block text-sm hover:underline">
+        <Link href="/services/businessSetup" className="block text-sm hover:underline">
           <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Instant Business Loan.webp"></img></span>Business Setup</div>
         </Link>
-        <Link href="/service/tourism-and-hospitality" className="block text-sm hover:underline">
+        <Link href="/services/tourismAndHospitality" className="block text-sm hover:underline">
           <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Tourism & Hospitality.webp"></img></span>Tourism and Hospitality</div>
         </Link>
-        <Link href="/service/infrastructure" className="block text-sm hover:underline">
+        <Link href="/services/infrastructure" className="block text-sm hover:underline">
           <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Infrastructure.webp"></img></span>Infrastructure</div>
         </Link>
-        <Link href="/service/healthcare" className="block text-sm hover:underline">
+        <Link href="/services/healthcare" className="block text-sm hover:underline">
           <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Health Care.webp"></img></span>Healtcare</div>
         </Link>
-        <Link href="/service/education" className="block text-sm hover:underline">
+        <Link href="/services/education" className="block text-sm hover:underline">
           <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Education.png"></img></span>Education</div>
         </Link>
-        <Link href="/service/stock-market" className="block text-sm hover:underline">
+        <Link href="/services/stockMarket" className="block text-sm hover:underline">
           <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Stock Market.webp"></img></span>Stock Market</div>
         </Link>
      </div>
