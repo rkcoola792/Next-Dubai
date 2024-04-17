@@ -4,6 +4,8 @@ import Section3 from '@/components/homepage/Section3'
 import Section4 from '@/components/homepage/Section4'
 import Section5 from '@/components/homepage/Section5'
 import Section6 from '@/components/homepage/Section6'
+import Section7 from '@/components/homepage/Section7'
+import Section8 from '@/components/homepage/Section8'
 import React from 'react'
 
 const Homepage = () => {
@@ -20,6 +22,14 @@ const Homepage = () => {
        <Section4/>
        <Section5/>
        <Section6/>
+       <div className='max-w-[1440px] mx-auto'>
+
+<Section7 />
+</div>
+       <div className=''>
+
+      <Section8 />
+      </div>
     </div>
   )
 }
