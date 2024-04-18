@@ -2,7 +2,7 @@ import React from 'react'
 
 // import MutipleBlogs from './MutipleBlogs'
 
-import Heading from '@/components/heading/Heading'
+import Heading from '@/components/Heading/Heading'
 import MutipleBlogs from './MultipleBlogs'
 
 const Section4 = () => {

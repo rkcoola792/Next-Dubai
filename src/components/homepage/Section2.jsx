@@ -5,7 +5,7 @@ import { StarIcon } from '../StarIcon/StarIcon';
 import { motion } from 'framer-motion';
 import "./Section2.scss"
 import Link from 'next/link';
-import Heading from '../heading/HEading';
+import Heading from '../Heading/Heading';
 
 
 const Section2 = () => {

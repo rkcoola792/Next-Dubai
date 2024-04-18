@@ -6,7 +6,7 @@ import { SmallStar } from "../StarIcon/SmallStar";
 
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import Specialities from "./Specialities";
-import Heading from "../heading/Heading";
+import Heading from "../Heading/Heading";
 const Section3 = () => {
   const ref = useRef();
   const { scrollYProgress } = useScroll({

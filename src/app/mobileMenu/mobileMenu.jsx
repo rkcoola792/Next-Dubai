@@ -21,7 +21,7 @@ const MobileMenuNew = () => {
       <div
         className="relative min-h-screen"
         style={{
-          backgroundImage: "url(/imgs/random/12.webp)",
+          // backgroundImage: "url(/imgs/random/12.webp)",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

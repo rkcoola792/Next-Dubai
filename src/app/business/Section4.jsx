@@ -1,6 +1,6 @@
 import React from 'react'
-import Heading from '@/components/heading/Heading';
-import { StarIcon } from '@/components/starIcon/StarIcon';
+import Heading from '@/components/Heading/Heading';
+import { StarIcon } from '@/components/StarIcon/StarIcon';
 import Section5Component from '@/components/homepage/Section5Component';
 
 const Section4 = () => {
