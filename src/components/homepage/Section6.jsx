@@ -62,7 +62,7 @@ const Section6 = () => {
             author="Janet Fleming"
           ></Blog>
           </Link> */}
-          <Link href ="/blog/4">
+          <Link href ="/blog/post2">
           <BlogWithImage
             img="/blog2.webp"
             heading="Financial Services"
@@ -89,7 +89,7 @@ const Section6 = () => {
             author="Janet Fleming"
           ></Blog>
           </Link> */}
-          <Link href ="/blog/5">
+          <Link href ="/blog/post3">
           <BlogWithImage
             img="/blog5.webp"
             heading="Banking Services"
