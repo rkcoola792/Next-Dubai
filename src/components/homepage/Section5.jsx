@@ -18,7 +18,7 @@ const Section5 = () => {
     damping: "30",
   });
   return (
-    <div className="services section5 relative bg-white  my-12 px-2">
+    <div className="services section5 relative bg-white  my-12 px-2" id="services">
       <div className='flex flex-col gap-8'>
       <div className="top-headings sticky sm:top-24  bg-white pt-4 z-[90]">
         <motion.div
@@ -27,7 +27,7 @@ const Section5 = () => {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.7, delay: 0.1 }}
         >
-          <StarIcon></StarIcon>
+          {/* <StarIcon></StarIcon> */}
         </motion.div>
         <div className="heading ">
           <Heading

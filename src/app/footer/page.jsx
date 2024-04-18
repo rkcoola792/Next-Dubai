@@ -6,7 +6,7 @@ import React from 'react'
 const Footer = () => {
   // const currentYear = new Date().getFullYear();
   return (
-    <div className="footer bg-mainBlue px-4 sm:px-12 md:py-6 py-12 w-full">
+    <div className="footer bg-mainBlue px-4 sm:px-12 md:py-6 py-12 w-full" id="partners">
       <div className="lg:flex-row mx-auto max-w-[1440px] flex flex-col lg:justify-between lg:items-center gap-4">
         <div className="left-logo ">
           <img src="/logo-white.webp" alt="logo" className="w-36" />
@@ -17,17 +17,17 @@ const Footer = () => {
               Home
             </p>
           </Link>
-          {/* <Link href="service"> */}
+          <Link href="/#services">
             <p className="text-white cursor-pointer opacity-70 hover:opacity-100 transition duration-200 ease-linear hover:ease-linear">
               Services
             </p>
-          {/* </Link> */}
+          </Link>
           <Link href="/aboutMe">
             <p className="text-white cursor-pointer opacity-70 hover:opacity-100 transition duration-200 ease-linear hover:ease-linear">
               About
             </p>
           </Link>
-          <Link href="">
+          <Link href="/#partners">
             <p className="text-white cursor-pointer opacity-70 hover:opacity-100 transition duration-200 ease-linear hover:ease-linear">
               Our Partners
             </p>

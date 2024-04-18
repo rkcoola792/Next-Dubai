@@ -28,7 +28,7 @@ const Section3 = () => {
             </div>
           </div>
           <div className="right py-6">
-          <Link href="/contact-us">
+          <Link href="/contactUs">
             <div className="contact-us-button bg-white text-mainBlue p-2 px-6 py-3 font-semibold rounded-full cursor-pointer ">
               Contact Me
             </div>

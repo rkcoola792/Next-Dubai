@@ -2,7 +2,7 @@ import React from 'react'
 
 const TermsAndCondition = () => {
   return (
-    <div className='terms and condition my-12 mt-[50px] px-4 sm:px-12 2xl:px-0 max-w-[1440px] mx-auto flex flex-col gap-4'>
+    <div className='terms and condition my-12 mt-[50px] px-4 sm:px-12 2xl:px-0 max-w-[1440px] mx-auto flex flex-col gap-8'>
      
       <div className='top flex flex-col gap-2'>
       <h2 className='text-2xl font-semibold'>Acceptance of Terms</h2>
@@ -65,7 +65,7 @@ const TermsAndCondition = () => {
         </div>
        
        <div className='top flex flex-col gap-2'>
-            <h className='text-2xl font-semibold'>Thank you for choosing Subodh Bajpai!</h>
+            <h3 className='text-2xl font-semibold'>Thank you for choosing Subodh Bajpai!</h3>
             <p className='text-lg'>We look forward to working together to achieve your digital marketing and other services goals.</p>
         </div>
 

@@ -5,7 +5,7 @@ const Singleblog = ({heading,subheading, author, designation,img,authorImage}) =
     <div className="flex px-0 sm:px-0 flex-col w-[350px]  sm:w-[100%]">
       <div className="image">
         <img
-          src={img}
+          src="/blog.webp"
           alt=""
           className="w-full sm:h-[300px] md:h-[200px] lg:h-[250px]  2xl:w-[400px] 2xl:h-[300px] rounded-lg object-cover"
         />
