@@ -49,6 +49,7 @@ const Section4 = () => {
           <img
             src="/abc.webp"
             className="absolute z-10 bottom-1 right-1 opacity-50"
+            alt="abc"
           ></img>
         </motion.div>
         <div className="right xl:w-[55%] flex flex-col gap-4 2xl:gap-8 mt-4 lg:mt-0 ">

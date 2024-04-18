@@ -6,35 +6,35 @@ const ContactForm = () => {
     <div className="Contact-form rounded-lg  overflow-hidden md:flex shadow-md my-12 ">
       <div className="left relative md:w-[40%] bg-mainBlue text-white  flex flex-col sm:p-12 p-8 rounded-lg gap-16 ">
         <div className="top-heading flex flex-col gap-4">
-          <h1 className="text-3xl ">Contact Information</h1>
-          <h1 className="opacity-75">Say something to start a live chat!</h1>
+          <h2 className="text-3xl ">Contact Information</h2>
+          <p className="opacity-75">Say something to start a live chat!</p>
         </div>
         <div className="middle-details flex flex-col gap-8">
           <div className="flex gap-6">
             <div className='sm:hidden lg:block'><Phone></Phone></div>
-            <h1> 971 543119922</h1>
+            <p> 971 543119922</p>
           </div>
           <div className="flex gap-6">
             <div className='sm:hidden lg:block'><Email></Email></div>
-            <h1> connect@unifiedinvestments.ae</h1>
+            <p> connect@unifiedinvestments.ae</p>
           </div>
           <div className="flex gap-6">
             <div className='sm:hidden lg:block'><Map></Map>
 </div>         
-   <h1>
+   <p>
        AI Amal St, Business Bay - Dubai - United Arab Emirates
-            </h1>
+            </p>
           </div>
         </div>
         <div className="bottom-links flex gap-6 sm:mt-12">
           <div className="icon">
-            <img src="twitter.webp" alt="" />
+            <img src="twitter.webp" alt="twitter" />
           </div>
           <div className="icon">
-            <img src="reddit.webp" alt="" />
+            <img src="reddit.webp" alt="reddit" />
           </div>
           <div className="icon">
-            <img src="twitter.webp" alt="" />
+            <img src="twitter.webp" alt="twitter" />
           </div>
         </div>
       </div>
@@ -59,9 +59,9 @@ const ContactForm = () => {
         </div>
 
         <div className="middle-container flex flex-col mt-12">
-          <h1 className="text-mainBlue font-semibold text-xl">
+          <h3 className="text-mainBlue font-semibold text-xl">
             Select Subject ?
-          </h1>
+          </h3>
           <div className=" sm:flex-row flex flex-col flex-wrap sm:gap-12">
             <div class="options inline-flex items-center mt-4   ">
               <input
@@ -74,7 +74,7 @@ const ContactForm = () => {
                 General Enquiry
               </span>
             </div>
-            <h1 class="inline-flex items-center mt-3">
+            <p class="inline-flex items-center mt-3">
               <input
                 type="radio"
                 class="form-radio h-5 w-5 text-blue-600"
@@ -84,8 +84,8 @@ const ContactForm = () => {
               <span class="ml-2 text-mainBlue sm:text-sm text-base">
               General Enquiry
               </span>
-            </h1>
-            <h1 class="inline-flex items-center mt-3 text-sm">
+            </p>
+            <p class="inline-flex items-center mt-3 text-sm">
               <input
                 type="radio"
                 class="form-radio h-5 w-5"
@@ -95,8 +95,8 @@ const ContactForm = () => {
               <span class="ml-2 text-mainBlue sm:text-sm text-base">
                 General Enquiry
               </span>
-            </h1>
-            <h1 class="inline-flex items-center mt-3">
+            </p>
+            <p class="inline-flex items-center mt-3">
               <input
                 type="radio"
                 class="form-radio h-5 w-5 text-mainBlue"
@@ -106,7 +106,7 @@ const ContactForm = () => {
               <span class="ml-2 text-mainBlue sm:text-sm text-base">
               General Enquiry
               </span>
-            </h1>
+            </p>
           </div>
         </div>
         <div className="bottom-conatiner mt-12 relative">

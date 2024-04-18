@@ -57,7 +57,7 @@ const LogoItem = ({ Icon }) => {
       className="w-16 md:w-24 h-16 md:h-24 flex justify-center items-center cursor-pointer"
     >
       {/* <Icon className="text-4xl md:text-5xl" /> */}
-      <img src={Icon} alt="" />
+      <img src={Icon} alt="bank" />
     </p>
   );
 };

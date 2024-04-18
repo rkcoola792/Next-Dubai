@@ -84,29 +84,29 @@ const PricingContent = () => {
         <Link href="/services/realEstate" className="block text-sm hover:underline">
       
           <div className="flex gap-2"><span className="">
-          <img src='/Real Estate.webp' className="w-6"></img>
+          <img src='/Real Estate.webp' alt="real-estate" className="w-6"></img>
           </span>Real Estate</div>
         </Link>
         <Link href="/services/renewableEnergy" className="block text-sm hover:underline">
-          <div className="mr-2 flex gap-2"><span ><img src="/Renewable Energy.webp" className="w-6"></img></span>Renewable Energy </div>
+          <div className="mr-2 flex gap-2"><span ><img src="/Renewable Energy.webp" alt="renewable-energy" className="w-6"></img></span>Renewable Energy </div>
         </Link>
         <Link href="/services/businessSetup" className="block text-sm hover:underline">
-          <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Instant Business Loan.webp"></img></span>Business Setup</div>
+          <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Instant Business Loan.webp" alt="businees-loan"></img></span>Business Setup</div>
         </Link>
         <Link href="/services/tourismAndHospitality" className="block text-sm hover:underline">
-          <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Tourism & Hospitality.webp"></img></span>Tourism and Hospitality</div>
+          <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Tourism & Hospitality.webp" alt="tourism"></img></span>Tourism and Hospitality</div>
         </Link>
         <Link href="/services/infrastructure" className="block text-sm hover:underline">
-          <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Infrastructure.webp"></img></span>Infrastructure</div>
+          <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Infrastructure.webp" alt="infrastructure"></img></span>Infrastructure</div>
         </Link>
         <Link href="/services/healthcare" className="block text-sm hover:underline">
-          <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Health Care.webp"></img></span>Healtcare</div>
+          <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Health Care.webp" alt="healtcare"></img></span>Healtcare</div>
         </Link>
         <Link href="/services/education" className="block text-sm hover:underline">
-          <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Education.png"></img></span>Education</div>
+          <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Education.png" alt="education"></img></span>Education</div>
         </Link>
         <Link href="/services/stockMarket" className="block text-sm hover:underline">
-          <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Stock Market.webp"></img></span>Stock Market</div>
+          <div className="mr-2 flex gap-2"><span className="w-6"><img src="/Stock Market.webp" alt="stock-market"></img></span>Stock Market</div>
         </Link>
      </div>
   </div>

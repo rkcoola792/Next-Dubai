@@ -67,7 +67,7 @@ const Logo = ({ color = "black" }) => {
     <Link href="/">
     <div className="w-28">
 
-<img src="/Header Logo.webp"></img>
+<img src="/Header Logo.webp" alt="logo"></img>
 </div>
     </Link>
   
