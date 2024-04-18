@@ -2,7 +2,7 @@ import React from 'react'
 
 const Singleblog = ({heading,subheading, author, designation,img,authorImage}) => {
   return (
-    <div className="flex px-0 sm:px-0 flex-col w-[350px]  sm:w-[100%]">
+    <div className="flex px-0 sm:px-0 flex-col w-[350px] 2xl:w-[400px]  sm:w-[100%]">
       <div className="image">
         <img
           src="/blog.webp"
@@ -11,7 +11,7 @@ const Singleblog = ({heading,subheading, author, designation,img,authorImage}) =
         />
       </div>
       <div className="content flex flex-col gap-4 mt-4">
-        <div className="heading font-bold text-xl  md:text-lg lg:text-xl ">{heading}</div>
+        <div className="heading font-bold text-sm  md:text-sm lg:text-xl ">{heading}</div>
         <div className="subheading text-gray-600 text-sm ">{subheading}</div>
         <div className="author-designation flex gap-2">
           <div className="author-img">
@@ -19,7 +19,7 @@ const Singleblog = ({heading,subheading, author, designation,img,authorImage}) =
           </div>
           <div className='name-designation'>
             <p className='font-semibold text-sm'> {author}</p>
-          <p className='text-gray-600 text-sm'> {designation}</p>
+          <p className='text-gray-600 text-xs'> {designation}</p>
           </div>
         </div>
       </div>

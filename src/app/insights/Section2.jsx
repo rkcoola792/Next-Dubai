@@ -14,11 +14,11 @@ const Section2 = () => {
             <div className="bottom flex gap-8  mt-6 text-gray-600">
               <div className="left  w-[45%] flex flex-col gap-4">
                 <div className="flex gap-2">
-                  <div className="text-A-image hidden md:block ">
+                  <div className="text-A-image hidden lg:block ">
                     <img src="A.webp" alt="A" className="lg:w-[400px] h-24  " />
                   </div>
                   <h3 className="2xl:text-lg">
-                  <span className='md:hidden'>A</span>
+                  <span className='lg:hidden'>A</span>
                     n Houston-based Axiom has signed a memorandum of
                     understanding with the UK Space
                   </h3>
@@ -61,10 +61,10 @@ const Section2 = () => {
             </div>
           </div>
           <div className="right lg:w-[50%] mt-8 lg:mt-0 ">
-            <div className="right-image w-[100%]">
-              <div className="lg:w-full w-[100%]">
-                <img src="Image.webp" alt="image" />{" "}
-              </div>
+            <div className="right-image">
+             
+                <img src="Image.webp" alt="image" className='object-cover w-[100%]'/>{" "}
+           
             </div>
           </div>
         </div>

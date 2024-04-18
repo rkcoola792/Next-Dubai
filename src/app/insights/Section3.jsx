@@ -6,7 +6,7 @@ const Section3 = () => {
     <div className='other-insights flex flex-col justify-center items-center my-6 '>
       <div className="heading flex flex-col text-center justify-center items-center my-6 gap-6 ">
         <h2 className='text-3xl font-bold text-mainBlue'>Other Insights</h2>
-        <p className='w-[75%] text-gray-600'>Sed nec pharetra felis, in ultrices neque. Phasellus varius semper tellus, ac imperdiet erat commodo id. Aenean lobortis justo et velit ornare malesuada.</p>
+        <p className='sm:w-[75%] text-gray-600'>Sed nec pharetra felis, in ultrices neque. Phasellus varius semper tellus, ac imperdiet erat commodo id. Aenean lobortis justo et velit ornare malesuada.</p>
         </div>
 
         <div className="other-insights-col grid lg:grid-cols-3 justify-between items-center gap-8">

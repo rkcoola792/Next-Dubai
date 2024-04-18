@@ -9,7 +9,7 @@ const page = () => {
   return (
     <div className="unifiedPropertiesDubai  md:px-12 px-4 sm:px-12 2xl:px-0  max-w-[1440px] mx-auto">
           <Hero
-        heading1="Home Unified Properties Dubai"
+        heading1="Home "
         heading2="Business"
         subheading="Cats Clubs And Bar Philippines"
         description="Analyze existing insurance policies to ensure they align with clients' current needs and objectives, recommending adjustments or enhancements as necessary."

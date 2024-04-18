@@ -87,7 +87,7 @@ const Links = () => {
   );
 };
 
-const NavLink = ({ children, hrefLink, FlyoutContent }) => {
+const NavLink = ({ children, href, FlyoutContent }) => {
   const [open, setOpen] = useState(false);
 
   const showFlyout = FlyoutContent && open;
@@ -98,7 +98,7 @@ const NavLink = ({ children, hrefLink, FlyoutContent }) => {
       onMouseLeave={() => setOpen(false)}
       className="relative w-fit h-fit"
     >
-      <Link href ={hrefLink} className="relative">
+      <Link href ="/" className="relative">
         {children}
         <span
           style={{
@@ -130,7 +130,7 @@ const NavLink = ({ children, hrefLink, FlyoutContent }) => {
 const CTAs = () => {
   return (
     <div className="flex  ">
-      <Link href="/contact-us">
+      <Link href="/contactUs">
         <div className="contact-us-button bg-mainBlue text-white p-3 px-6 rounded-full cursor-pointer">
          <p>Contact Us</p>
         </div>
@@ -145,28 +145,28 @@ const AboutUsContent = () => {
     <div className="grid h-fit w-full shadow-xl lg:h-72 lg:w-[600px] lg:shadow-none xl:w-[750px]">
       <div className=" flex flex-col gap-2">
 
-      <Link href="/service/real-estate" className="block text-sm hover:underline">
+      <Link href="/services/realEstate" className="block text-sm hover:underline">
           <p className="text-lg"><span className="mr-2 "><CreditScoreIcon></CreditScoreIcon></span>Real State</p>
         </Link>
-        <Link href="/service/renewable-energy" className="block text-sm hover:underline">
+        <Link href="/services/renewableEnergy" className="block text-sm hover:underline">
           <p className="text-lg"><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Renewable Energy </p>
         </Link>
-        <Link href="/service/business-setup" className="block text-sm hover:underline">
+        <Link href="/services/businessSetup" className="block text-sm hover:underline">
           <p className="text-lg"><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Business Setup</p>
         </Link>
-        <Link href="/service/tourism-and-hospitality" className="block text-sm hover:underline">
+        <Link href="/services/tourismAndHospitality" className="block text-sm hover:underline">
           <p className="text-lg"><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Tourism and Hospitality</p>
         </Link>
-        <Link href="/service/infrastructure" className="block text-sm hover:underline">
+        <Link href="/services/infrastructure" className="block text-sm hover:underline">
           <p className="text-lg"><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Infrastructure</p>
         </Link>
-        <Link href="/service/healthcare" className="block text-sm hover:underline">
+        <Link href="/services/healthcare" className="block text-sm hover:underline">
           <p className="text-lg"><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Healtcare</p>
         </Link>
-        <Link href="/service/education" className="block text-sm hover:underline">
+        <Link href="/services/education" className="block text-sm hover:underline">
           <p className="text-lg"><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Education</p>
         </Link>
-        <Link href="/service/stock-market" className="block text-sm hover:underline">
+        <Link href="/services/stockMarket" className="block text-sm hover:underline">
           <p className="text-lg"><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Stock Market</p>
         </Link>
        
@@ -182,7 +182,7 @@ const PricingContent = () => {
   return (
     <div className="w-full shadow-none lg:w-[250px] lg:shadow-xl">
     <div className="flex flex-col gap-2">
-    <Link href="/business/unifiedCapitalAndInvestmentsIndia" className="block text-sm hover:underline">
+    <Link href="/business/unifiedCapitalAndInvestmentIndia" className="block text-sm hover:underline">
           <p className="text-lg"><span className="mr-2"><CreditScoreIcon></CreditScoreIcon></span>Unified Capital and Investments India</p>
         </Link>
         <Link href="/business/mediaDynoxPrivateLimitedIndia" className="block text-sm hover:underline">
@@ -219,7 +219,7 @@ const PricingContent = () => {
 
 
 
-const MobileMenuLink = ({ children, hrefLink, FoldContent, setMenuOpen }) => {
+const MobileMenuLink = ({ children, href, FoldContent, setMenuOpen }) => {
   const [open, setOpen] = useState(false);
 
   return (
@@ -229,7 +229,7 @@ const MobileMenuLink = ({ children, hrefLink, FoldContent, setMenuOpen }) => {
           className="flex w-full cursor-pointer items-center justify-between border-b border-neutral-300 py-6 text-start text-2xl font-semibold"
           onClick={() => setOpen((pv) => !pv)}
         >
-          <Link href={hrefLink}
+          <Link href="insights"
             onClick={(e) => {
               e.stopPropagation();
               setMenuOpen(false);
@@ -249,7 +249,7 @@ const MobileMenuLink = ({ children, hrefLink, FoldContent, setMenuOpen }) => {
           </motion.div>
         </div>
       ) : (
-        <Link href ={hrefLink}
+        <Link href ={href}
           onClick={(e) => {
             e.stopPropagation();
             setMenuOpen(false);
@@ -344,6 +344,10 @@ const LINKS = [
   {
     text: "Insights",
     href: "/insights",
+  },
+  {
+    text: "About",
+    href: "/aboutMe",
   },
 
 ];

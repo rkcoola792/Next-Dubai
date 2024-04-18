@@ -2,8 +2,10 @@ import React from 'react'
 
 import OtherInsigts from './Section3';
 import Hero from '../services/Hero';
-import Section3 from '../services/Section3';
-import Section2 from '../services/Section2';
+
+import Section2 from './Section2';
+import Section3 from './Section3';
+
 
 const Insights = () => {
   return (
@@ -18,7 +20,6 @@ const Insights = () => {
       </div>
       <div className="my-12">
         <Section2></Section2>
-        <Section3 />
         <OtherInsigts></OtherInsigts>
       </div> 
     </div>
