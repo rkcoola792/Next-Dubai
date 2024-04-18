@@ -132,25 +132,32 @@ const arr=["rajeev", "kumar"]
           <hr />
           <div className="bottom-icons flex gap-4 justify-between items-center ">
             <div className="icon-news cursor-pointer opacity-30 active " onClick={()=>setJournal(0)}>
-              <img src="/Forbes.webp" alt="forbes" />
+              <img src="/Forbes.webp" alt="forbes"  height="fit"
+          width="fit"/>
             </div>
             <div className="icon-news cursor-pointer opacity-30"  onClick={()=>setJournal(1)}>
-              <img src="/mint.webp" alt="mint" />
+              <img src="/mint.webp" alt="mint"  height="fit"
+          width="fit"/>
             </div>
             <div className="icon-news cursor-pointer opacity-30"  onClick={()=>setJournal(2)}>
-              <img src="/money.webp" alt="moneycontrol" />
+              <img src="/money.webp" alt="moneycontrol"  height="fit"
+          width="fit" />
             </div>
             <div className="icon-news cursor-pointer opacity-30" onClick={()=>setJournal(3)}>
-              <img src="/fortune.webp" alt="fortune" />
+              <img src="/fortune.webp" alt="fortune"   height="fit"
+          width="fit"/>
             </div>
             <div className="icon-news cursor-pointer opacity-30" onClick={()=>setJournal(4)}>
-              <img src="/abp.webp" alt="abp" />
+              <img src="/abp.webp" alt="abp"  height="fit"
+          width="fit" />
             </div>
             <div className="icon-news cursor-pointer opacity-30" onClick={()=>setJournal(5)}>
-              <img src="/zee.webp" alt="zee news" />
+              <img src="/zee.webp" alt="zee news"  height="fit"
+          width="fit" />
             </div>
             <div className="icon-news cursor-pointer opacity-30" onClick={()=>setJournal(6)}>
-              <img src="/aajtak.webp" alt="aajtak" />
+              <img src="/aajtak.webp" alt="aajtak"  height="fit"
+          width="fit" />
             </div>
           </div>
         </div>

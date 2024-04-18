@@ -3,7 +3,8 @@ import React from 'react'
 const Section3Card = ({heading,subheading,img,source,read}) => {
   return (
     <div className='insight-card flex flex-col gap-2 '>
-      <div className="img w-full"><img src={img} alt="insight-image " className='w-full' /></div>
+      <div className="img w-full"><img src={img} alt="insight-image "  height="fit"
+          width="fit" className='w-full' /></div>
       <div className="heading text-xl font-semibold">{heading}...</div>
       <div className="subheading text-gray-600">{subheading}...</div>
       <div className="bottom-read flex gap-2 font-semibold">

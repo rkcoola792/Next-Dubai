@@ -11,7 +11,8 @@ const Header = () => {
     
       <Link href="/">
         <div className="logo cursor-pointer">
-          <img src="/Header Logo.webp" alt="logo" className="w-36" />
+          <img src="/Header Logo.webp" alt="logo" className="w-36"  height="fit"
+          width="fit" />
         </div>
       </Link>
       <CenterHeader />

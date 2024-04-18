@@ -50,6 +50,8 @@ const Section4 = () => {
             src="/abc.webp"
             className="absolute z-10 bottom-1 right-1 opacity-50"
             alt="abc"
+            height="fit"
+          width="fit"
           ></img>
         </motion.div>
         <div className="right xl:w-[55%] flex flex-col gap-4 2xl:gap-8 mt-4 lg:mt-0 ">
@@ -132,9 +134,12 @@ const Section4 = () => {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.9 }}
           >
-            <img className="w-8 md:w-12" src="/amazon.webp" alt="amazon" />
-            <img className="w-8 md:w-12" src="/flipkart.webp" alt="flipkart" />
-            <img className="w-8 md:w-12" src="/amazon.webp" alt="amazon" />
+            <img  height="fit"
+          width="fit" className="w-8 md:w-12" src="/amazon.webp" alt="amazon" />
+            <img  height="fit"
+          width="fit" className="w-8 md:w-12" src="/flipkart.webp" alt="flipkart" />
+            <img  height="fit"
+          width="fit" className="w-8 md:w-12" src="/amazon.webp" alt="amazon" />
           </motion.div>
         </div>
         <motion.div
@@ -144,7 +149,8 @@ const Section4 = () => {
           transition={{ duration: 1 }}
         >
           <div className="book-image sm:w-[500px]  -ml-10 md:-mt-12 md:-mr-16 flex justify-center  ">
-            <img src="/book.webp" alt="rise and thrive" className="object-cover " />
+            <img src="/book.webp" alt="rise and thrive" className="object-cover "  height="fit"
+          width="fit"/>
           </div>
         </motion.div>
       </div>

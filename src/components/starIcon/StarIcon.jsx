@@ -9,6 +9,8 @@ export function StarIcon() {
         animate={{ rotate: 360 }}
         transition={{ ease: "linear", duration: 30, repeat: Infinity }}
         className="z-50"
+        height="fit"
+          width="fit"
       />
   
   );

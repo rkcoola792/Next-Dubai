@@ -13,6 +13,8 @@ const BlogPost = () => {
           src="/Blog Post.webp"
           alt=""
           className="h-72 sm:h-auto w-full"
+          height="fit"
+          width="fit"
         />
       </div>
       <div className="px-2">

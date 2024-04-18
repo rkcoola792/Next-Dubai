@@ -15,14 +15,14 @@ const Hero = () => {
       <div className="left-container-content lg:w-[60%] flex  items-center ">
         <div className="content  flex flex-col gap-12 p-8 px-6 lg:px-16">
           <div className='heading flex flex-col gap-4 '>
-          <motion.h1
+          <motion.h2
             className="text-white font-semibold lg:text-[1.8em] xl:text-[2.4rem] text-[1.3rem] sm:text-[1.5rem]"
             initial={{ x: 30, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.2, delay: 0.1 }}
           >
             Subodh Bajpai !
-          </motion.h1>
+          </motion.h2>
          
           <motion.div
             className="subheading "
@@ -30,9 +30,9 @@ const Hero = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 1 }}
           >
-            <h2 className="text-white text-[1.5rem] sm:text-[2rem] xl:text-[2.5rem] font-semibold ">
+            <h1 className="text-white text-[1.5rem] sm:text-[2rem] xl:text-[2.5rem] font-semibold ">
               The <span className="text-secondaryBlue"> Venture Catalyst</span>
-            </h2>
+            </h1>
             </motion.div>
           </div>
          
@@ -77,6 +77,8 @@ const Hero = () => {
           src="/hero-image.webp"
           alt="hero-image"
           className="object-cover "
+          height="fit"
+          width="fit"
         />
       </motion.div>
     </motion.div>

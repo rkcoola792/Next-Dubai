@@ -7,6 +7,8 @@ const Singleblog = ({heading,subheading, author, designation,img,authorImage}) =
         <img
           src="/blog.webp"
           alt="blog"
+          height="fit"
+          width="fit"
           className="w-full sm:h-[300px] md:h-[200px] lg:h-[250px]  2xl:w-[400px] 2xl:h-[300px] rounded-lg object-cover"
         />
       </div>
@@ -15,7 +17,8 @@ const Singleblog = ({heading,subheading, author, designation,img,authorImage}) =
         <div className="subheading text-gray-600 text-sm ">{subheading}</div>
         <div className="author-designation flex gap-2">
           <div className="author-img">
-            <img src="/Avatar.webp" alt='avatar'></img>
+            <img src="/Avatar.webp" alt='avatar'  height="fit"
+          width="fit"></img>
           </div>
           <div className='name-designation'>
             <p className='font-semibold text-sm'> {author}</p>

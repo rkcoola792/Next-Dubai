@@ -62,6 +62,8 @@ const Card = ({ title, subtitle, Icon, href,designation,company }) => {
         <img
           src="/Invisible.webp"
           alt="avatar-image"
+          height="fit"
+          width="fit"
           className="w-12 h-12 rounded-[50%] object-cover mb-2 text-2xl text-mainBlue group-hover:text-white transition-colors relative z-10 duration-300 "
         />
         <div className="headings flex flex-col ">

@@ -8,6 +8,8 @@ export function SmallStar() {
       animate={{ rotate: 360 }}
       transition={{ ease: "linear", duration: 30, repeat: Infinity }}
       className=""
+      height="fit"
+          width="fit"
     />
   );
 }

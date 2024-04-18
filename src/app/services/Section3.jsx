@@ -11,6 +11,8 @@ const Section3 = () => {
         "
           alt="cta"
           className='h-[400px] sm:h[350px]  w-full rounded-lg xl:h-auto z-10'
+          height="fit"
+          width="fit"
         />
         <div className="texts px-4 absolute xl:flex-row  flex flex-col justify-between  top-12 sm:top-16 xl:top-10  2xl:top-16 lg:px-32 items-center ">
           <div className="left flex flex-col gap-8 xl:w-[60%] items-center xl:items-baseline text-center lg:text-left">
