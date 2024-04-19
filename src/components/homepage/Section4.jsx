@@ -4,8 +4,8 @@ import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import Section4Component from "./Section4Component";
 import { motion } from "framer-motion";
 import Heading from "../Heading/page";
-import StarIcon from "../StarIcon/StarIcon";
-import SmallStar from "../StarIcon/SmallStar";
+import StarIcon from "../StarIcon/page";
+import SmallStar from "../SmallStar/page";
 
 const Section4 = () => {
   return (

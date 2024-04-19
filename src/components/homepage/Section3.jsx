@@ -3,8 +3,8 @@ import React, { useRef } from "react";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import Specialities from "./Specialities";
 import Heading from "../Heading/page";
-import StarIcon from "../StarIcon/StarIcon";
-import SmallStar from "../StarIcon/SmallStar";
+import StarIcon from "../StarIcon/page";
+import SmallStar from "../SmallStar/page";
 const Section3 = () => {
   const ref = useRef();
   const { scrollYProgress } = useScroll({
