@@ -2,7 +2,8 @@ import { Search } from '@mui/icons-material'
 import React from 'react'
 
 import BlogsPage from './BlogsPage';
-import Heading from '@/components/Heading/Heading';
+import Heading from '../../components/Heading/Heading';
+
 
 const Section2 = () => {
   return (

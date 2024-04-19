@@ -1,7 +1,7 @@
 import React from 'react'
-import Heading from '@/components/Heading/Heading';
-import { StarIcon } from '@/components/StarIcon/StarIcon';
-import Section5Component from '@/components/homepage/Section5Component';
+import Heading from '../../components/Heading/Heading';
+import Section5Component from '../../components/homepage/Section5Component';
+import { StarIcon } from '../../components/StarIcon/StarIcon';
 
 const Section4 = () => {
   return (

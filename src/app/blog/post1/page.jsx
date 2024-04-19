@@ -1,8 +1,8 @@
 "use client"
 import React from 'react'
 import Section2 from '../Section2'
-import Section3 from '@/app/services/Section3'
-import Section4 from '@/app/blogs/Section4'
+import Section3 from '../../services/Section3'
+import Section4 from '../../blogs/Section4'
 
 const BlogPost = () => {
   return (

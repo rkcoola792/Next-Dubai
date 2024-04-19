@@ -1,9 +1,9 @@
 "use client"
 import React from 'react'
-import Section2 from '@/app/services/Section2';
-import Section4 from '@/app/services/Section4';
-import Section3 from '@/app/services/Section3';
-import Hero from '@/app/services/Hero';
+import Section2 from '../../services/Section2';
+import Hero from '../../services/Hero';
+import Section3 from '../../services/Section3';
+import Section4 from '../../services/Section4';
 
 const page = () => {
   return (

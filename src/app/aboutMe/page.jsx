@@ -1,10 +1,11 @@
 "use client"
 import React from 'react'
 
-import Section3 from '@/components/homepage/Section3';
+
 import Project from '../services/Section3';
 import Hero from '../services/Hero';
-import Section4 from '@/components/homepage/Section4';
+import Section4 from '../../components/homepage/Section4';
+import Section3 from '../../components/homepage/Section3';
 const AboutMe = () => {
   return (
     <div className="Business   ">

@@ -2,11 +2,9 @@
 import React from 'react'
 // import Section2 from './Section2';
 import Section4 from './Section4';
-
 import Hero from '../services/Hero';
-
-import Section6 from '@/components/homepage/Section6';
 import Section3 from '../services/Section3';
+import Section6 from '../../components/homepage/Section6';
 
 
 

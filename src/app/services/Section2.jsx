@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
-import Heading from '@/components/Heading/Heading';
-import { StarIcon } from '@/components/StarIcon/StarIcon';
+import Heading from '../../components/Heading/Heading';
+import { StarIcon } from '../../components/StarIcon/StarIcon';
 
 const Section2 = ({para1,para2,para3,para4,img}) => {
   return (
