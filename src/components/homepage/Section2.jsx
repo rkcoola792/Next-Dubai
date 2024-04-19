@@ -1,7 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react'
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
-import { StarIcon } from '../StarIcon/StarIcon';
 import { motion } from 'framer-motion';
 import "./Section2.scss"
 import Link from 'next/link';
