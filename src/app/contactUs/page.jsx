@@ -1,5 +1,5 @@
+"use client"
 import React from 'react'
-
 import ContactForm from './ContactForm';
 import Hero from '../services/Hero';
 

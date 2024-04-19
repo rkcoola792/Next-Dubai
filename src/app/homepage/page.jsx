@@ -1,3 +1,4 @@
+"use client"
 import Section3 from '../../components/homepage/Section3'
 import Section4 from '../../components/homepage/Section4'
 import Section5 from '../../components/homepage/Section5'

@@ -2,8 +2,6 @@ import React from 'react'
 import Blog from '../Homepage/Blog';
 import BlogWithImage from '../Homepage/BlogWithImage';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
-
 
 const BlogsPage = () => {
   return (
