@@ -1,8 +1,6 @@
 import React from 'react'
-import Singleblog from './Singleblog'
 import Link from 'next/link';
-
-
+import Singleblog from './SingleBlog';
 const MutipleBlogs = () => {
   return (
     <div className="my-12 grid grid-cols-3 lg:items-center   justify-center items-center gap-12 2xl:gap-24  ">

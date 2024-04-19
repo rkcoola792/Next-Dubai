@@ -1,9 +1,7 @@
 import React from 'react'
-
-// import MutipleBlogs from './MutipleBlogs'
-
 import MutipleBlogs from './MultipleBlogs'
 import Heading from '../../components/Heading/Heading'
+
 
 const Section4 = () => {
   return (
