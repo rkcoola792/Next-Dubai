@@ -116,7 +116,7 @@ const arr=["rajeev", "kumar"]
               {journalArray[journal]?.paragraph2}
               </p>
             </div>
-            <div className="read more mt-4">
+            <div className="read-more mt-4">
               <Link href ="/insights">
 
               
@@ -130,8 +130,8 @@ const arr=["rajeev", "kumar"]
         <div className="bottom-icons flex flex-col gap-8 mt-8 py-4">
           <hr />
           <div className="bottom-icons flex gap-4 justify-between items-center ">
-            <div className="icon-news cursor-pointer opacity-30 active " onClick={()=>setJournal(0)}>
-              <img src="/Forbes.webp" alt="forbes"  height="fit"
+            <div className="icon-news cursor-pointer opacity-30 active " >
+              <img src="/Forbes.webp" alt="forbes"  height="fit" onClick={()=>setJournal(0)}
           width="fit"/>
             </div>
             <div className="icon-news cursor-pointer opacity-30"  onClick={()=>setJournal(1)}>

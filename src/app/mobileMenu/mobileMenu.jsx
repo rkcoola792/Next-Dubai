@@ -19,7 +19,7 @@ const MobileMenuNew = () => {
     <>
       <FlyoutNav />
       <div
-        className="relative min-h-screen"
+        className=""
         style={{
           // backgroundImage: "url(/imgs/random/12.webp)",
           backgroundSize: "cover",

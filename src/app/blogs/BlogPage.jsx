@@ -10,7 +10,6 @@ const BlogsPage = () => {
         className="flex gap-6 sticky top-48 bg-subtleBlue z-10"
         initial={{ y: 75, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        // transition={{ duration: 0.5, delay: 0.1 }}
       >   
         <BlogWithImage
           heading="Social Media"
