@@ -3,7 +3,7 @@ import React from "react";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import Section4Component from "./Section4Component";
 import { motion } from "framer-motion";
-import Heading from "../Heading/Heading";
+import Heading from "../Heading/page";
 import StarIcon from "../StarIcon/StarIcon";
 import SmallStar from "../StarIcon/SmallStar";
 

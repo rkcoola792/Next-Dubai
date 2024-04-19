@@ -4,7 +4,7 @@ import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import { motion } from 'framer-motion';
 import "./Section2.scss"
 import Link from 'next/link';
-import Heading from '../Heading/Heading';
+import Heading from '../Heading/page';
 
 
 const Section2 = () => {

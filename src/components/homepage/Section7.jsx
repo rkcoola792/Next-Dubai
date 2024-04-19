@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import Heading from '../Heading/Heading';
+import Heading from '../Heading/page';
 import TestimonialGradient from './TestimonialGradient';
 import { motion } from 'framer-motion';
 

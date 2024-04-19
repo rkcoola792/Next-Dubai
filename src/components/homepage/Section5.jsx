@@ -1,6 +1,6 @@
 "use client"
 import React, { useRef, useState } from 'react'
-import Heading from '../Heading/Heading'
+import Heading from '../Heading/page'
 import Section5Component from './Section5Component';
 import { motion, useScroll, useSpring } from 'framer-motion';
 import StarIcon from '../StarIcon/StarIcon';

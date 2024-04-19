@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import Heading from '../Heading/Heading'
+import Heading from '../Heading/page'
 import DoubleScroll from './DoubleScroll';
 
 const Section8 = () => {

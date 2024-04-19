@@ -1,5 +1,5 @@
 import React from 'react'
-import Heading from '../../components/Heading/Heading';
+import Heading from '../../components/Heading/page';
 import Section5Component from '../../components/homepage/Section5Component';
 import StarIcon from '../../components/StarIcon/StarIcon';
 

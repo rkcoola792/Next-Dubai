@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import Heading from '../Heading/Heading'
+import Heading from '../Heading/page'
 import StarIcon  from '../StarIcon/StarIcon';
 import BlogWithImage from './BlogWithImage';
 import { motion } from 'framer-motion';

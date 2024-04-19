@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import Heading from '../../components/Heading/Heading';
+import Heading from '../../components/Heading/page';
 
 const Section2 = ({para1,para2,para3,para4,img}) => {
   return (

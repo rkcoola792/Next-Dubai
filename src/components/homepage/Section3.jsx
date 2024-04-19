@@ -2,7 +2,7 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import Specialities from "./Specialities";
-import Heading from "../Heading/Heading";
+import Heading from "../Heading/page";
 import StarIcon from "../StarIcon/StarIcon";
 import SmallStar from "../StarIcon/SmallStar";
 const Section3 = () => {

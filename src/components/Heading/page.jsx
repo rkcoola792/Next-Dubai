@@ -1,7 +1,5 @@
 
 import { motion } from 'framer-motion';
-import React from 'react'
-
 const Heading = ({heading,subheading}) => {
   return (
     <motion.div
