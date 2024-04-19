@@ -1,13 +1,11 @@
 "use client"
 import React from 'react'
 import Heading from '../../components/Heading/Heading';
-import { StarIcon } from '../../components/StarIcon/StarIcon';
 
 const Section2 = ({para1,para2,para3,para4,img}) => {
   return (
     <div className="section2">
       <div className="right-6 absolute w-12">
-        {/* <StarIcon></StarIcon> */}
       </div>
       <div className="top-heading">
         <Heading
