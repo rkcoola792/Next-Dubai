@@ -3,7 +3,7 @@ import "./globals.css";
 
 import MobileMenuNew from "./mobileMenu/mobileMenu";
 import Footer from "./footer/page";
-import Header from "../components/Header/Header";
+import Header from "../components/Header/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
