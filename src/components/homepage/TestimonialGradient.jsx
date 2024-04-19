@@ -1,12 +1,5 @@
 "use client"
 import React from "react";
-import {
-  FiCreditCard,
-  FiMail,
-  FiUser,
-  FiUsers,
-  
-} from "react-icons/fi";
 import { RiNetflixFill ,RiAmazonFill,} from "react-icons/ri";
 import { SiFlipkart } from "react-icons/si";
 import StarRateIcon from "@mui/icons-material/StarRate";

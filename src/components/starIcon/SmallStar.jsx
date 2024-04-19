@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-export function SmallStar() {
+export default function SmallStar() {
   return (
     <motion.img
       src="/Star.webp"

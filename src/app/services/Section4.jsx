@@ -1,14 +1,15 @@
 import React from 'react'
 import Heading from '../../components/Heading/Heading';
 import Section5Component from '../../components/homepage/Section5Component';
-// import { StarIcon } from '../../components/StarIcon/StarIcon';
+import StarIcon from '../../components/StarIcon/StarIcon';
+
 
 
 const Section4 = () => {
   return (
     <div className="section4 my-12 relative ">
       <div className=" absolute w-12">
-        {/* <StarIcon></StarIcon> */}
+        <StarIcon></StarIcon>
       </div>
       <div className="heading">
         <Heading

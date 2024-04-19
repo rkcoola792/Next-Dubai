@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-export function StarIcon() {
+export default function StarIcon() {
   return (
     
       <motion.img

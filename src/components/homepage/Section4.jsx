@@ -1,12 +1,11 @@
 "use client"
 import React from "react";
-
-import { StarIcon } from "../StarIcon/StarIcon";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
-import { SmallStar } from "../StarIcon/SmallStar";
 import Section4Component from "./Section4Component";
 import { motion } from "framer-motion";
 import Heading from "../Heading/Heading";
+import StarIcon from "../StarIcon/StarIcon";
+import SmallStar from "../StarIcon/SmallStar";
 
 const Section4 = () => {
   return (

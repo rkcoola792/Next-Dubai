@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import Heading from '../Heading/Heading'
-import { StarIcon } from '../StarIcon/StarIcon';
+import StarIcon  from '../StarIcon/StarIcon';
 import BlogWithImage from './BlogWithImage';
 import { motion } from 'framer-motion';
 import Link from 'next/link';

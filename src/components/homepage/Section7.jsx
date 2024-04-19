@@ -1,7 +1,6 @@
 "use client"
 import React from 'react'
 import Heading from '../Heading/Heading';
-import Testimonial from './Testimonial';
 import TestimonialGradient from './TestimonialGradient';
 import { motion } from 'framer-motion';
 
