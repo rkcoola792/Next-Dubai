@@ -1,5 +1,5 @@
 import React from 'react'
-import CenterHeader from './CenterHeader';
+import CenterHeader from '../CenterHeader/page';
 import Link from 'next/link';
 
 
