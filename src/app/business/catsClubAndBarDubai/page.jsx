@@ -1,4 +1,4 @@
-"use client"
+
 import React from 'react'
 import Section2 from '../../services/Section2';
 import Section4 from '../../services/Section4';

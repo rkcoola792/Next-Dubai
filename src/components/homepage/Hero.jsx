@@ -52,7 +52,7 @@ const Hero = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.8 }}
           >
-            <div className="get-started bg-secondaryBlue text-mainBlue p-2 px-4 font-semibold rounded-full cursor-pointer items-center  justify-center md:flex sm:flex-row flex flex-col ">
+            <div className="get-started bg-secondaryBlue text-mainBlue p-2 px-4 sm:px-6 font-semibold rounded-full cursor-pointer items-center  justify-center md:flex sm:flex-row flex flex-col ">
              <p>Get started</p> 
             </div>
             <div className=' phone-number-div flex gap-6  sm:ml-2'>
