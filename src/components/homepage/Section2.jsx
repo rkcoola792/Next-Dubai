@@ -13,21 +13,21 @@ const Section2 = () => {
     id:"1",
     heading:"the funding mogul empowering business needs",
     date:"19 Jan,2021 05:13:03 PM IST",
-    paragraph1:"In 2010, Bajpai decided href start his own investment firm with the aim of providing investment opportunities href businesses and individuals. Since then, he has developed a strong grip on the investment market of India.",
-    paragraph2:"He has an excellent understanding of the trends and patterns of the market and can predict the behavior of the market with remarkable accuracy. Bajpai is known for his ability href identify businesses."
+    paragraph1:"In 2010, Bajpai decided href start his own investment firm with the aim of providing investment opportunities href businesses and individuals. Since .",
+    paragraph2:"He has an excellent understanding of the trends and patterns of the market and can predict the behavior of the market with remarkable accuracy. Bajpai."
 },
 {id:"2",
   heading:"Secure Your Future: Trusted Financial Services Solutions",
   date:"12 March,2022 05:13:03 PM IST",
-  paragraph1:"Description: Our trusted financial services solutions are designed href safeguard your future and provide peace of mind. With a focus on security and reliability, we offer a range of services tailored href meet your unique.",
-    paragraph2:"Let our team of experts guide you through the complexities of finance with our comprehensive range of financial services. From budgeting and investment planning href retirement strategies, we provide the expertise."
+  paragraph1:"Description: Our trusted financial services solutions are designed href safeguard your future and provide peace of mind. With a focus on security and reliability.",
+    paragraph2:"Let our team of experts guide you through the complexities of finance with our comprehensive range of financial services. From budgeting and investment planning. "
 
 },
 {id:"3",
 heading:"Navigate Your Finances with Expert Financial Services",
 date:"15 April,2022 05:13:03 PM IST",
-paragraph1:"Our tailored financial services are crafted href help you maximize your wealth and optimize your financial potential. With personalized solutions and strategic advice, we empower you href grow your assets and build.",
-paragraph2:"Take control of your financial future with our comprehensive range of services designed href empower your journey towards financial success. From wealth management href estate planning, our holistic approach ensures."
+paragraph1:"Our tailored financial services are crafted href help you maximize your wealth and optimize your financial potential. With personalized solutions and strategic advice.",
+paragraph2:"Take control of your financial future with our comprehensive range of services designed href empower your journey towards financial success."
 
 
 },
@@ -43,23 +43,23 @@ paragraph2:"Invest with confidence with our premier financial services, backed b
 heading:"Invest Confidently: Premier Financial Services",
 date:"15 Feb,2022 05:13:03 PM IST",
 paragraph1:"From wealth management and investment planning href retirement strategies and estate planning, our expert advisors offer personalized solutions tailored.",
-paragraph2:"Transform your wealth and unlock your financial potential with our strategic financial services tailored href your unique goals and objectives."
+paragraph2:"Transform your wealth and unlock your financial potential with our strategic financial services tailored href your unique goals and objectives.Whether you're a seasoned investor."
 
 
 },
 {id:"6",
 heading:"Achieve Your Financial Goals: Personalized Services",
 date:"15 Jan,2022 05:13:03 PM IST",
-paragraph1:" Let us help you achieve your financial goals with our personalized services tailored href your individual needs and aspirations.",
-paragraph2:"Partner with us on your journey href prosperity with our proven financial services backed by a track record of success."
+paragraph1:" Let us help you achieve your financial goals with our personalized services tailored href your individual needs and aspirations.Whether you're a seasoned investor.",
+paragraph2:"Partner with us on your journey href prosperity with our proven financial services backed by a track record of success. Whether you're a seasoned investor."
 
 
 },
 {id:"7",
 heading:"Elevate Your Finances: Premium Financial Service",
 date:"21 Auguts,2022 05:13:03 PM IST",
-paragraph1:"Elevate your finances href new heights with our premium financial services designed for discerning clients like you.",
-paragraph2:"Experience true financial freedom with our innovative range of services designed href revolutionize the way you manage your money."
+paragraph1:"Elevate your finances href new heights with our premium financial services designed for discerning clients like you.Whether you're a seasoned investor.",
+paragraph2:"Experience true financial freedom with our innovative range of services designed href revolutionize the way you manage your money. Whether you're a seasoned investor."
 
 
 
@@ -96,7 +96,7 @@ const arr=["rajeev", "kumar"]
         whileInView={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1, delay: 0.2 }}
       >
-        <motion.div className="top-descriptions lg:h-[15rem] flex flex-col lg:flex lg:flex-row gap-6 items-start"
+        <motion.div className="top-descriptions lg:h-[15rem] h-[33rem] sm:h-[22rem] flex flex-col lg:flex lg:flex-row gap-6 items-start"
         
         >
           <div className="left-headings lg:w-[40%] flex flex-col gap-4  lg:gap-8 justify-center   lg:text-left">
@@ -118,8 +118,6 @@ const arr=["rajeev", "kumar"]
             </div>
             <div className="read-more mt-4">
               <Link href ={`/insights/${journal+1}`}>
-
-              
               <p className="text-mainBlue font-semibold 2xl:text-lg">
                 Read More <ArrowRightAltIcon></ArrowRightAltIcon>
               </p>
