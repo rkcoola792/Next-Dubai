@@ -1,5 +1,6 @@
 import React from 'react'
 import Section3Card from './Section3Card'
+import Link from 'next/link'
 
 const Section3 = () => {
   return (
@@ -10,6 +11,8 @@ const Section3 = () => {
         </div>
 
         <div className="other-insights-col grid lg:grid-cols-3 justify-between items-center gap-8">
+            
+            <Link href="/insights/one">
             <Section3Card heading="Long March 9 Rocket Will Be a Game-changer for China’s Space" 
             subheading="SpaceX’s Starship spacecraft and super heavy rocket – the gleaming stainless steel rocket en"
              img="/insights1.webp" 
@@ -17,13 +20,17 @@ const Section3 = () => {
              read="7 mins read">
 
              </Section3Card>
+             </Link>
+             <Link href="/insights/two">
             <Section3Card heading="Long March 9 Rocket Will Be a Game-changer for China’s Space" 
             subheading="SpaceX’s Starship spacecraft and super heavy rocket – the gleaming stainless steel rocket en"
              img="/insights2.webp" 
              source="Space and Universe" 
              read="7 mins read">
-
              </Section3Card>
+             </Link>
+
+             <Link href="insights/three">
             <Section3Card heading="Long March 9 Rocket Will Be a Game-changer for China’s Space" 
             subheading="SpaceX’s Starship spacecraft and super heavy rocket – the gleaming stainless steel rocket en"
              img="/insights3.webp" 
@@ -31,6 +38,7 @@ const Section3 = () => {
              read="7 mins read">
 
              </Section3Card>
+             </Link>
         </div>
       </div>
   )
