@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Singleblog from './SingleBlog';
 const MutipleBlogs = () => {
   return (
-    <div className="my-12 grid grid-cols-3 lg:items-center   justify-center items-center gap-12 2xl:gap-24  ">
+    <div className="my-12 sm:grid sm:grid-cols-3 lg:items-center  flex flex-col gap-4 sm:gap-12  justify-center items-center 2xl:gap-24  ">
     
       <Link href="/blog/post1">
       
