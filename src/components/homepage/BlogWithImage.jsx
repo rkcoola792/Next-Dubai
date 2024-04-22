@@ -17,14 +17,15 @@ const BlogWithImage = ({ heading, subheading, description, date, author ,img}) =
         <div className="subheading  capitalize text-3xl sm:text2xl  font-semibold"><p>{subheading}</p></div>
         <div className="description text-gray-600 leading-7"><p>{description}</p></div>
         <div className="date-author flex gap-6">
-          <p className="gap-2">
-           <CalendarMonth></CalendarMonth>
+          <p className=" flex gap-2 text-sm sm:text-base items-center">
           <span>
-             
-            </span>
+
+           <CalendarMonth></CalendarMonth>
+          </span>
+         
           {date}
           </p>
-          <p className="flex gap-2">
+          <p className="flex gap-2 text-sm sm:text-base items-center ">
             <span>
               <Person></Person>
             </span>

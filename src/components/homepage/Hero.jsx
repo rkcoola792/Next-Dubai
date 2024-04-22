@@ -13,7 +13,7 @@ const Hero = () => {
       transition={{ duration: 1 }}
     >
       <div className="left-container-content lg:w-[60%] flex  items-center ">
-        <div className="content  flex flex-col gap-12 p-8 px-6 lg:px-16">
+        <div className="content  flex flex-col sm:gap-12 gap-6 p-8 px-6 lg:px-16">
           <div className='heading flex flex-col gap-4 '>
           <motion.h2
             className="text-white font-semibold lg:text-[1.8em] xl:text-[2.4rem] text-[1.3rem] sm:text-[1.5rem]"
@@ -52,7 +52,7 @@ const Hero = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.8 }}
           >
-            <div className="get-started bg-secondaryBlue text-mainBlue p-2 px-6 font-semibold rounded-full cursor-pointer items-center  justify-center md:flex sm:flex-row flex flex-col ">
+            <div className="get-started bg-secondaryBlue text-mainBlue p-2 px-4 font-semibold rounded-full cursor-pointer items-center  justify-center md:flex sm:flex-row flex flex-col ">
              <p>Get started</p> 
             </div>
             <div className=' phone-number-div flex gap-6  sm:ml-2'>
@@ -69,9 +69,9 @@ const Hero = () => {
       </div>
       <motion.div
         className="right-container-image lg:w-[60%] "
-        initial={{ y: 300, opacity: 0 }}
+        initial={{ y: 200, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.7, delay: 0.7 }}
+        transition={{ duration: 0.5, delay: 0.5 }}
       >
         <img
           src="/hero-image.webp"

@@ -18,6 +18,9 @@ module.exports = {
         secondaryBlue: "#A5DBFF",
         subtleBlue: "#F8FCFF",
       },
+      lineHeight:{
+        "11":"50px"
+      }
     },
   },
   plugins: [],

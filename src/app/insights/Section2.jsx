@@ -7,7 +7,7 @@ const Section2 = () => {
         <div className="top flex flex-col lg:flex-row  justify-center items-center lg:items-start lg:justify-between">
           <div className="left lg:w-[50%]">
             <div className="top">
-              <p className="uppercase lg:text-4xl text-3xl font-semibold lg:w-[80%] leading-[50px]">
+              <p className="uppercase lg:text-4xl text-3xl font-semibold lg:w-[80%] leading-[30px]">
                 the funding mogul empowering business needs
               </p>
             </div>

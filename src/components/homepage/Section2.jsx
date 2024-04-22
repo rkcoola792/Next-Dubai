@@ -100,7 +100,7 @@ const arr=["rajeev", "kumar"]
         
         >
           <div className="left-headings lg:w-[40%] flex flex-col gap-4  lg:gap-8 justify-center   lg:text-left">
-            <h3 style={{lineHeight:"50px"}} className ="uppercase sm:text-3xl 2xl:text-4xl  lg:text-left text-2xl text-center font-medium opacity-90 my-6 sm:my-0">
+            <h3 style={{lineHeight:"45px"}} className =" uppercase sm:text-3xl 2xl:text-4xl  lg:text-left text-2xl text-center font-medium opacity-90 my-6 sm:my-0">
               {journalArray[journal]?.heading}
             </h3>
             <p className="opacity-70 text-center lg:text-left mb-4">
