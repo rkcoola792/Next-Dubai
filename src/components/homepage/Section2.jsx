@@ -117,7 +117,7 @@ const arr=["rajeev", "kumar"]
               </p>
             </div>
             <div className="read-more mt-4">
-              <Link href ="/insights">
+              <Link href ={`/insights/${journal+1}`}>
 
               
               <p className="text-mainBlue font-semibold 2xl:text-lg">
