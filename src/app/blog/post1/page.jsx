@@ -8,11 +8,7 @@ import { Helmet } from 'react-helmet'
 const BlogPost = () => {
   return (
     <div className=" max-w-[1440px]  mx-auto px-4 sm:px-12 2xl:px-0">
-      <Helmet>
-                <meta charSet="utf-8" />
-                <title>My Blog 1 </title>
-                {/* <link rel="canonical" href="http://mysite.com/example" /> */}
-            </Helmet>
+     
       <div className="section1 hero-image my-12 w- ">
         <img
           src="/Blog Post.webp"
