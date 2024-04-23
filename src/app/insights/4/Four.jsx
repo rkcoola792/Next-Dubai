@@ -5,7 +5,7 @@ import Hero from '../../services/Hero';
 import Section2 from '../Section2';
 
 
-const Two = () => {
+const Four = () => {
   return (
     <div className="insights  px-4 sm:px-12 2xl:px-0 max-w-[1440px] mx-auto">
       <div className="hero">
@@ -24,4 +24,4 @@ const Two = () => {
   );
 }
 
-export default Two
+export default Four

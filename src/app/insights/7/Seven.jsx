@@ -5,7 +5,7 @@ import Hero from '../../services/Hero';
 import Section2 from '../Section2';
 
 
-const Two = () => {
+const Seven = () => {
   return (
     <div className="insights  px-4 sm:px-12 2xl:px-0 max-w-[1440px] mx-auto">
       <div className="hero">
@@ -18,10 +18,9 @@ const Two = () => {
       </div>
       <div className="my-12">
         <Section2></Section2>
-        {/* <OtherInsights></OtherInsights> */}
       </div> 
     </div>
   );
 }
 
-export default Two
+export default Seven
