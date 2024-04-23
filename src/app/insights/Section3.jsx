@@ -12,7 +12,7 @@ const Section3 = () => {
 
         <div className="other-insights-col grid lg:grid-cols-3 justify-between items-center gap-8">
             
-            <Link href="/insights/one">
+            <Link href="/insights/1">
             <Section3Card heading="Long March 9 Rocket Will Be a Game-changer for China’s Space" 
             subheading="SpaceX’s Starship spacecraft and super heavy rocket – the gleaming stainless steel rocket en"
              img="/insights1.webp" 
@@ -21,7 +21,7 @@ const Section3 = () => {
 
              </Section3Card>
              </Link>
-             <Link href="/insights/two">
+             <Link href="/insights/2">
             <Section3Card heading="Long March 9 Rocket Will Be a Game-changer for China’s Space" 
             subheading="SpaceX’s Starship spacecraft and super heavy rocket – the gleaming stainless steel rocket en"
              img="/insights2.webp" 
@@ -30,7 +30,7 @@ const Section3 = () => {
              </Section3Card>
              </Link>
 
-             <Link href="insights/three">
+             <Link href="insights/3">
             <Section3Card heading="Long March 9 Rocket Will Be a Game-changer for China’s Space" 
             subheading="SpaceX’s Starship spacecraft and super heavy rocket – the gleaming stainless steel rocket en"
              img="/insights3.webp" 
