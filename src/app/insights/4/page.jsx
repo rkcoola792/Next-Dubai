@@ -1,4 +1,5 @@
 import React from 'react'
+import Four from './Four'
 
 const page = () => {
   return (
