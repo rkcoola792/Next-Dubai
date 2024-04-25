@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useState } from 'react'
 import Project from '../services/Section3';
 import Hero from '../services/Hero';
 import Section4 from '../../components/homepage/Section4';
@@ -12,11 +12,12 @@ const AboutMe = () => {
   return (
 
     <div className="Business   ">
-        <Script
-        src="https://example.com/script.js"
-        id="example-script"
-        nonce="XUENAJFW"
-        data-test="script"
+       <Script
+        src="https://www.google-analytics.com/analytics.js"
+        onLoad={() => {
+        //   console.log("flag ", flag)
+
+        }}
       />
      <div className='max-w-[1440px] mx-auto px-4 sm:px-12 2xl:px-0'>
      <Hero
